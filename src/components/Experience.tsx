@@ -11,6 +11,35 @@ const Experience = () => {
         </div>
         
         <div className="space-y-8">
+          {/* TSS Solutions Experience */}
+          <div className="bg-gray-50 rounded-lg shadow-md p-6 border-l-4 border-green-600">
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800">Radar Engineer Intern</h3>
+                <div className="flex items-center gap-2 text-green-600 font-medium mb-2">
+                  <Briefcase size={16} />
+                  <span>TSS Solutions</span>
+                </div>
+                <div className="flex items-center gap-2 text-gray-600 mb-2">
+                  <MapPin size={16} />
+                  <span>Melbourne, FL</span>
+                </div>
+                <div className="flex items-center gap-2 text-gray-600">
+                  <Calendar size={16} />
+                  <span>May 2025 - August 2025</span>
+                </div>
+              </div>
+            </div>
+            <div className="space-y-3">
+              <p className="text-gray-700">
+                <strong>TIGAR Radar Optimization:</strong> Worked on optimizing TIGAR radar systems, improving performance and reliability.
+              </p>
+              <p className="text-gray-700">
+                <strong>Legacy Framework Development:</strong> Began work on the legacy framework for the TPS-43 radar system, contributing to modernization and maintainability efforts.
+              </p>
+            </div>
+          </div>
+
           {/* Entergy Experience */}
           <div className="bg-gray-50 rounded-lg shadow-md p-6 border-l-4 border-blue-600">
             <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">

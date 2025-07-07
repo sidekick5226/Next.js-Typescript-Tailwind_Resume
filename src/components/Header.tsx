@@ -1,11 +1,25 @@
 import React from 'react';
+import Image from 'next/image';
 import { Mail, Phone, Linkedin } from 'lucide-react';
 
 const Header = () => {
   return (
     <header className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-12">
-      <div className="container mx-auto px-6">
-        <div className="text-center">
+      <div className="container mx-auto px-6 relative">
+        {/* Profile Image - top right, fits within header */}
+        <div className="hidden md:block absolute top-0 right-0 -mt-9 mr-18 z-10">
+          <div className="w-56 h-56 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <Image
+              src="/connor-bailey-profile.jpg"
+              alt="Connor Bailey Profile"
+              width={176}
+              height={176}
+              className="object-cover w-full h-full"
+              priority
+            />
+          </div>
+        </div>
+        <div className="text-center md:pr-40">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Connor Bailey</h1>
           <p className="text-xl md:text-2xl mb-6 opacity-90">Computer Engineering Student</p>
           <div className="flex flex-wrap justify-center gap-6 text-sm md:text-base">
