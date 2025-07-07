@@ -73,15 +73,6 @@ src/
 └── ...
 ```
 
-## 🎨 Customization
-
-The website is built with modular components that can be easily customized:
-
-- **Colors**: Modify the color scheme in Tailwind classes
-- **Content**: Update component files with your own information
-- **Layout**: Adjust the responsive grid system
-- **Animations**: Add custom animations with Tailwind CSS
-
 ## 📱 Responsive Design
 
 The website is fully responsive and optimized for:
@@ -96,15 +87,6 @@ The website is fully responsive and optimized for:
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
-
-## 🚀 Deployment
-
-This website can be deployed on various platforms:
-
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **GitHub Pages**
-- **AWS S3**
 
 ## 📄 License
 
